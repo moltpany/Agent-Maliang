@@ -35,20 +35,21 @@ Maliang 是一个**多模态 AI 设计 Agent** 框架。它像神话中的神笔
 ## Repository Layout
 
 ```
-Agent-DesignDirector/          ← This repo (the framework)
+Agent-Maliang/                 ← This repo (the framework)
 ├── README.md
 ├── LICENSE
 ├── .gitignore
-├── references/                ← Template files (copy to your workspace)
-│   ├── IDENTITY.md.template
-│   ├── SOUL.md.template
-│   ├── AGENTS.md.template
-│   ├── TOOLS.md.template
-│   ├── USER.md.template
-│   └── HEARTBEAT.md.template
-└── skills/                    ← Core skills (install from ClawHub)
-    └── (see Required Skills below)
+└── references/                ← Template files (copy to your workspace)
+    ├── IDENTITY.md.template
+    ├── SOUL.md.template
+    ├── AGENTS.md.template
+    ├── TOOLS.md.template
+    ├── USER.md.template
+    └── HEARTBEAT.md.template
 ```
+
+> Skills are **not bundled** in this repo — install them separately from ClawHub
+> into your workspace `skills/` directory (see [Required Skills](#required-skills)).
 
 **After setup, your workspace looks like:**
 
