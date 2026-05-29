@@ -113,6 +113,8 @@ Agent-DesignDirector/          ← This repo (the framework)
 
 （为保护隐私，具体角色细节已脱敏，仅展示工作流程和框架能力）
 
+**📁 查看作品： [moltpany/magic-mirror](https://github.com/moltpany/magic-mirror)**
+
 ## Required Skills
 
 This agent framework is designed to work with these skills (install separately):
