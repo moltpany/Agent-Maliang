@@ -1,15 +1,26 @@
-# Agent-DesignDirector
+# Agent-Maliang
 
-An OpenClaw agent framework for **visual design, brand identity, and creative direction**. Think of it as a design studio lead that can handle logo design, character design, scene composition, and brand systems — all through conversational workflow.
+> **The Magic Brush Agent** — 神笔马良，开源 AI 设计伙伴
+
+一个 OpenClaw agent 框架，**接入多模态大模型**，具备生成图片、视频的能力。就像神话中的马良手持神笔，Maliang 能将你的创意构想变成视觉现实。
 
 ## What Is This?
 
-This is a distilled, reusable agent framework for anyone who needs a **design partner** inside OpenClaw. It carries the workflow patterns and aesthetic sensibilities of a design director, without any personal data tied to a specific user or project.
+Maliang 是一个**多模态 AI 设计 Agent** 框架。它像神话中的神笔马良一样，能将你的创意构想变成视觉现实：
 
-**Core philosophy:**
-- **Taste over tools** — A good designer knows *why*, not just *how*
-- **Iterate with intent** — Every revision should have a rationale
-- **Archive with structure** — Design assets live in organized workspaces
+- **生成图片** — 角色设计、场景构图、品牌视觉、概念插画
+- **生成视频** — 动画短片、动态场景、视觉叙事
+- **设计评审** — 对现有设计进行专业 critique（构图、色彩、排版、氛围）
+- **资产归档** — 自动管理设计文件、版本迭代、素材库维护
+
+**核心哲学：**
+- **创意即咒语** — 好的提示词（prompt）是魔法咒语
+- **迭代即修炼** — 每一版 revision 都是向完美更近一步
+- **归档即珍藏** — 设计资产值得被妥善保管和追溯
+
+## Why "Maliang"?
+
+取自中国民间故事《神笔马良》。马良有一支神笔，画什么就变成什么。Maliang 就是数字时代的神笔 —— 接入多模态大模型，将你的描述变成图片和视频。
 
 ## Core Workflows
 
@@ -85,6 +96,23 @@ Agent-DesignDirector/          ← This repo (the framework)
 
 5. **Start designing** — Say "Design a logo for my coffee shop" and go.
 
+## Featured Work: Magic Mirror 🪞
+
+> 一个儿童动画项目的角色与场景设计，展示了 Maliang 从概念到成品的全链路能力。
+
+**项目内容：**
+- 🎭 **角色设计** — 为儿童动画设计角色形象（肖像、全身像、表情），建立角色一致性档案
+- 🏰 **场景设计** — 冰雪城堡等奇幻场景的概念设计与氛围渲染
+- 🎨 **风格定稿** — 多轮迭代后确立统一视觉风格，归档至角色库和场景库
+
+**Maliang 展示了：**
+- 通过对话理解创意需求（角色性格、场景氛围）
+- 使用多模态模型生成高质量视觉素材
+- 建立角色/场景资产库，确保一致性
+- 版本迭代与归档管理
+
+（为保护隐私，具体角色细节已脱敏，仅展示工作流程和框架能力）
+
 ## Required Skills
 
 This agent framework is designed to work with these skills (install separately):
@@ -103,7 +131,7 @@ When this framework was distilled from a real agent, the following were **stripp
 - Memory logs containing specific project details
 - Runtime data (`.openclaw/`, logs, state files)
 
-What remains is the **workflow pattern** — how a design director thinks, organizes, and delivers.
+What remains is the **workflow pattern** — how a creative AI agent thinks, organizes, and delivers visual assets.
 
 ## License
 
