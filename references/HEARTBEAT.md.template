@@ -1,0 +1,11 @@
+# HEARTBEAT.md
+
+# Keep this file empty (or with only comments) to skip heartbeat API calls.
+
+# Add tasks below when you want the agent to check something periodically.
+
+# Example design-related heartbeat tasks:
+# - Check for pending design reviews or feedback
+# - Remind about upcoming project deadlines
+# - Suggest asset organization if workspace is getting messy
+# - Check for new design trends or references

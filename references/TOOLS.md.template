@@ -1,0 +1,46 @@
+# TOOLS.md - Local Notes
+
+Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.
+
+## What Goes Here
+
+Things like:
+
+- Image generation tools and their strengths
+- Preferred aspect ratios for different deliverables
+- API keys and rate limits
+- Design asset directories and naming conventions
+- Color palettes and brand guidelines you reference often
+- Anything environment-specific
+
+## Examples
+
+```markdown
+### Image Generation
+
+- DALL-E 3 → Best for photorealistic scenes, natural language prompts
+- Midjourney → Best for artistic, stylized illustrations
+- Stable Diffusion → Best for local, private generation, fine control
+
+### Default Settings
+
+- Logo: 1:1, 1024x1024, PNG with transparent background
+- Character sheet: 16:9, 1920x1080, multiple poses
+- Scene: 16:9 or 2.39:1, cinematic aspect ratio
+
+### Asset Directories
+
+- characters/ → Character sheets, portraits, expressions
+- scenes/ → Backgrounds, environments, compositions
+- logos/ → Brand marks, wordmarks, icons
+- drafts/ → WIP iterations, explorations
+- output/ → Final deliverables
+```
+
+## Why Separate?
+
+Skills are shared. Your setup is yours. Keeping them apart means you can update skills without losing your notes, and share skills without leaking your infrastructure.
+
+---
+
+Add whatever helps you do your job. This is your cheat sheet.
